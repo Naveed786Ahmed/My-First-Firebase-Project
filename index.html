@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="./pages/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-form">
+            <div class="heading">
+                <h1>Login Form</h1>
+            </div>
+            <div class="nav-but">
+                <button id="login">Login</button>
+                <a href="./pages/signup.html"><button id="signup">Signup</button></a>
+            </div>
+            <div class="inputs">
+                <input type="email" placeholder="Email Address" id="email">
+                <br>
+                <br>
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <div class="forget-pass">
+                <p id="resetPass">Forget Password?</p>
+            </div>
+            <div class="login-but" id="loginbtn">
+                <button>Login</button>
+            </div>
+            <div class="not-a-mem">
+                <p>Not a member? <a href="./pages/signup.html">Register Now</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./pages/firebase.js" type="module"></script>
+    <script src="./pages/signin.js" type="module"></script>
+    <script src="./pages/profile.js" type="module"></script>
+
+
+</body>
+
+</html>
