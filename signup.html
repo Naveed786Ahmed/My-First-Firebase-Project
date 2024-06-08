@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-form">
+            <div class="heading">
+                <h1>Signup Form</h1>
+            </div>
+            <div class="nav-but">
+                <a href="../index.html"><button id="signup">Login</button></a>
+                <button id="login">Signup</button>
+            </div>
+            <div class="inputs">
+                <div class="name-input">
+                    <input type="text" placeholder="First Name" id="fName">
+                    <input type="text" placeholder="Last Name"  id="lName">
+                </div>
+                <br>
+                <input type="Email" placeholder="Email Address" id="email">
+                <br>
+                <br>
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <div class="signup-but" id="registerbtn">
+                <button >Register</button>
+            </div>
+            <div class="not-a-mem">
+                <p>Already a member? <a href="../index.html">Log in</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src = "./firebase.js" type="module"></script>
+    <script src = "./signup.js" type="module"></script>
+
+</body>
+
+</html>

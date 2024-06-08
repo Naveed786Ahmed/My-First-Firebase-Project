@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logins-form">
+            <h1 class="profileHead">Profile Info</h1>
+
+            <br><br><br>
+            <span>Email Address:</span>
+            <br>
+            <h3 class="profEmail" id="profEmail"></h3>
+            <br><br>
+            <p id="verify"></p>
+            <div class="varifyBtn">
+                <button id="varified" style="display: none;">Varify Email</button>
+            </div>
+
+            <div class="logoutEmail">
+                <button id = "logoutbtn">Log Out</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./firebase.js" type="module"></script>
+    <script src="./profile.js" type="module"></script>
+    <script src="./signin.js" type="module"></script>
+</body>
+
+</html>

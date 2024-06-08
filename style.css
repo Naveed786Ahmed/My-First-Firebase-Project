@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#resetPass{
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: relative;
+}
+
+.login-form {
+    width: 30%;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.logins-form{
+    width: 30%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.heading {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.nav-but {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-but button {
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#login {
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+    color: white;
+}
+
+#signup {
+    background-color: #f80759;
+    color: white;
+}
+
+.inputs {
+    margin-top: 20px;
+    padding: 5px;
+    display: block;
+}
+
+.inputs input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #ffd9e6;
+    padding: 15px;
+}
+
+.forget-pass {
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: #f80759;
+}
+
+.login-but {
+    margin-top: 20px;
+}
+
+.login-but button {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+    color: white;
+    cursor: pointer;
+}
+.not-a-mem{
+    text-align: center;
+    margin-top: 30px;
+}
+.not-a-mem a{
+    color: #f80759;
+    text-decoration: none;
+}
+.name-input input{
+    width: 48%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #ffd9e6;
+    padding: 15px;
+}
+/* #last-name{
+    margin-left: 8px;
+} */
+.signup-but button{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 07px;
+    border: none;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f80759, #bc4e9c);
+    color: white; 
+    cursor: pointer;  
+}
+
+.profileHead{
+    text-align: center;
+    color: #bc4e9c;
+    font-style: italic;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.profEmail{
+    width: 100%;
+    border-bottom: 2px solid #835275;
+    margin-top: 3px;
+    color: #bc4e9c;
+    text-align: center;
+    font-style: italic;
+}
+
+span{
+    color: #835275;
+}
+
+#verify{
+    color: #bc4e9c;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+}
+
+#varified{
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #f80759;
+    color: #ffd9e6;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#varified:active{
+    background-color: #bc4e9c;
+    color: white;
+}
+
+.varifyBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+#logoutbtn{
+    width: 30%;
+    height: auto;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #f80759;
+    color: #ffd9e6;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#logoutbtn:active{
+    background-color: #bc4e9c;
+    color: white;
+}
+
+.logoutEmail{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
